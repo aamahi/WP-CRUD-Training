@@ -1,0 +1,14 @@
+{
+    "name": "mahi/training",
+    "description": "This is training plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Training\\" : "includes/"
+        },
+        "files": [ "includes/function.php"]
+    }
+}
